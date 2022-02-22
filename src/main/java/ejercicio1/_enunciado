@@ -1,0 +1,14 @@
+se necesita crear un metodo para verificar si un estudiante puede aplicar
+a una beca de estudio,  se ingresa el ci del estudiante a un metodo recomendacionBeca() donde
+este internamente llama a dos metodos
+
+el primer metodo  applicaBeca (metodo estatico) de la clase Helpers retorna un boolean ,
+ en caso que si aplique a beca se llama al
+segundo metodo getNota() de la clase Utils que recupera el promedio de nota de las materias cursadas
+si este valor es mayor igual a 90 se retorna el mensaje "SI APLICA A BECA"
+si el valor es menor a 90  "NO APLICA A BECA POR PROMEDIO ACADEMICO" , en caso de que el metodo applicaBeca retorne falso se retorna "EL ESTUDIANTE NO CURSO AUN EL 60% DE LAS MATERIAS"
+
+
+tomar en cuenta que un metodo interno es estatico y el otro no.
+
+realizar los unit test mockeando ambos.
