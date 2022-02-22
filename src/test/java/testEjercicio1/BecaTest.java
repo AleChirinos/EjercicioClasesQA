@@ -31,5 +31,7 @@ public class BecaTest {
         Beca beca = new Beca(mock);
         String actualResult = beca.recomendacionBeca(ci);
         Assertions.assertEquals(expectedResult, actualResult, "ERROR");
+
+        helpersStatic.close();
     }
 }

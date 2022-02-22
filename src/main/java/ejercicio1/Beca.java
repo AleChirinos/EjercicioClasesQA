@@ -13,7 +13,6 @@ public class Beca {
     }
 
     public String recomendacionBeca(int ci) {
-
         if (Helpers.applicaBeca(ci)) {
             if (utils.getNota(ci) >= 90) {
                 return "SI APLICA A BECA";
